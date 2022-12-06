@@ -1,7 +1,9 @@
 /*
+Algorithm:
 
-Edge Cases are Handled in this version
+>> Edge Cases are Handled.
 
+>> Palindrome functionality is added.
 
  */
 
