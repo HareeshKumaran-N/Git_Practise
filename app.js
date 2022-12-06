@@ -1,9 +1,13 @@
 /*
-Algorithm:
+
+Functionalities:
 
 >> Edge Cases are Handled.
+   1. if the input is said to be a empty string or if it is not a string the function wont work.
 
 >> Palindrome functionality is added.
+
+
 
  */
 
