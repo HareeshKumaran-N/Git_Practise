@@ -2,6 +2,7 @@
 
 Edge Cases are Handled in this version
 
+
  */
 
 
@@ -10,7 +11,11 @@ function reverse(str)
    if(typeof str!=='string' || str.length===0)
    return "Invalid Input";
    
-   return str.split("").reverse().join("")
+   let revStr=(str.split("").reverse().join("") );
+   if(revStr===str)
+   return "Given string is a Palindrome: " + revStr;
+   else
+   return "Not a Palindrome but the revString is  "+revStr;
 }
 
-console.log(reverse(""));
+console.log(reverse("malaalam"));
