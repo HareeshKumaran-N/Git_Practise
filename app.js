@@ -3,10 +3,11 @@
 Functionalities:
 
 >>Palindrome functionality is added but the reverse is written as a separate function.
-
+ >>Edge case is handled from the branch x.   
 
 
  */
+
 
 function reverse(str)
 { 
@@ -15,7 +16,10 @@ function reverse(str)
     return (revStr);
 }
 function Palindrome(str)
-{console.log(str)
+{ 
+    if(typeof str!== 'string' || str.length<=0)
+     return "Invalid input"
+
 
    if(reverse(str)===str)
    return "Palindrome";
@@ -23,7 +27,4 @@ function Palindrome(str)
    return "Not a Palindrome";
 }
 
-
-
-
-console.log(Palindrome("mox"));
+console.log(Palindrome(9));
