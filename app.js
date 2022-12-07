@@ -6,25 +6,11 @@ Functionalities:
  >>Edge case is handled from the branch x.   
 
 
- */
+*/
 
-
-function reverse(str)
+function length(str)
 { 
-   let revStr=(str.split("").reverse().join("") );
-   console.log(revStr)
-    return (revStr);
-}
-function Palindrome(str)
-{ 
-    if(typeof str!== 'string' || str.length<=0)
-     return "Invalid input"
-
-
-   if(reverse(str)===str)
-   return "Palindrome";
-   else
-   return "Not a Palindrome";
+   return str.length;
 }
 
-console.log(Palindrome(9));
+console.log(length("asldasdkalsd"));
